@@ -265,6 +265,9 @@ header .container {
 .mobile_logo{
   display: none;
 }
+a.nav_brand {
+  max-width: 270px;
+}
 /* hero-sec*/
 .hero_sec {
   padding: 10em 0 0;
@@ -486,8 +489,8 @@ line-height: 30px;
 }
 .watch_card .right_col .scroll_container .scroll_thumb {
   width: 165px;
-  height: 130px;
-  border-radius: 10px;
+  height: 165px;
+  border-radius: 0px;
   overflow: hidden;
 }
 
@@ -974,7 +977,15 @@ font-weight: 600;
   font-size: 20px;
 }
 .customer_sec .splide__pagination{
-  bottom: -10em;
+  bottom: -4em;
+}
+.customer_card {
+  padding: 20px;
+}
+
+.customer_card img {
+  border-radius: 10px;
+  box-shadow: var(--shadow-size) var(--shadow-color);
 }
 /* contact_form */
 .contact_sec {
@@ -1384,8 +1395,3 @@ a.download_btn {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
   border-radius: 10px;
 } */
-
-
-a.nav_brand {
-    max-width: 270px;
-}
